@@ -1,10 +1,10 @@
-# 🔬 Sistema de Gestión de Equipos de Laboratorio (C++)
+# Sistema de Gestión de Equipos de Laboratorio (C++)
 
 Aplicación de consola para administrar equipos de laboratorio universitario: carga de inventario, reservas por usuario, cierre de sesiones con penalizaciones y reportes de uso.
 
 Proyecto académico de Programación Avanzada, construido sin STL (`std::string`, `vector`) para trabajar directamente con memoria dinámica, punteros y archivos.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Carga de datos** desde archivos de texto delimitados (`*`) con reserva dinámica de memoria de tamaño exacto (lectura en dos pasadas).
 - **Consulta por laboratorio:** listado de equipos y resumen con conteo por estado, costo total y % de disponibilidad.
@@ -21,7 +21,7 @@ Proyecto académico de Programación Avanzada, construido sin STL (`std::string`
 - Parsing con `strtok` y manejo de cadenas `char[]`
 - Validación robusta de entradas con reintentos
 
-## ▶️ Cómo ejecutarlo
+## Cómo ejecutarlo
 
 ```bash
 g++ proyecto.cpp -o laboratorio
@@ -44,6 +44,6 @@ Cuando el programa pida el nombre del archivo, usa `equipos.txt` (opción 1) y `
 
 Las sesiones se guardan automáticamente en `sesiones.dat`.
 
-## 👤 Autor
+## Autoría
 
-Kiki · Estudiante de Ciencia de Datos
+Andres Fernandez/Samuel Barrera/Nicolas Contreras · Estudiantes de Ciencia de Datos
