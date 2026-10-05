@@ -1,0 +1,3 @@
+20231001 * Ana Perez * Ingenieria Electronica * 4
+20231002 * Luis Gomez * Ingenieria Mecatronica * 2
+20221003 * Maria Rojas * Ingenieria Electronica * 7
