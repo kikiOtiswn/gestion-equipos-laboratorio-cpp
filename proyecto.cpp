@@ -225,6 +225,11 @@ void cargarEquipos(char nombreArchivo[], Equipo** equipos, int* numEquipos) {
         return;
     }
 
+    // Si ya habia equipos cargados, se liberan para no duplicar ni perder memoria
+    delete[] *equipos;
+    *equipos = nullptr;
+    *numEquipos = 0;
+
     // --- PRIMERA PASADA: solo contar cuantas lineas (=cuantos equipos) hay ---
     char linea[200];
     while (archivo.getline(linea, 200)) {
@@ -297,6 +302,11 @@ void cargarUsuarios(char nombreArchivo[], Usuario** usuarios, int* numUsuarios) 
         cout<<"No se pudo abrir el archivo.\n";
         return;
     }
+
+    // Si ya habia usuarios cargados, se liberan para no duplicar ni perder memoria
+    delete[] *usuarios;
+    *usuarios = nullptr;
+    *numUsuarios = 0;
 
     // Primera pasada: contar lineas/usuarios
     char linea[200];
