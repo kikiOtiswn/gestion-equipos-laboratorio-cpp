@@ -1,0 +1,5 @@
+101 * Osciloscopio Digital * Lab 1 * Medicion * Disponible * 2500000 * 3 * 100 MHz, 2 canales
+102 * Multimetro Fluke * Lab 1 * Medicion * Disponible * 800000 * 1 * True RMS, autorango
+103 * Fuente DC Regulable * Lab 1 * Alimentacion * Mantenimiento * 1200000 * 2 * 0-30V, 0-5A
+201 * Generador de Funciones * Lab 2 * Senales * Disponible * 1800000 * 3 * Hasta 20 MHz
+202 * Analizador de Espectro * Lab 2 * Medicion * Disponible * 9500000 * 6 * 9 kHz - 3 GHz
